@@ -1,5 +1,5 @@
-_baseURL = "http://swhalley.ca/"
-baseURL = "http://swhalley.ca.s3-website.ca-central-1.amazonaws.com/"
+baseURL = "http://swhalley.ca/"
+_baseURL = "http://swhalley.ca.s3-website.ca-central-1.amazonaws.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "freelancer"
