@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://swhalley.ca"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "freelancer"
@@ -11,3 +11,7 @@ theme = "freelancer"
         image = "profile.png"
         name = "Sean Whalley"
         subtitle = "Jedi Knight Developer"
+
+[params.footer]
+        copyright = "Powered by [Hugo](//gohugo.io)."
+
