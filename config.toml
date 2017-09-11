@@ -1,4 +1,4 @@
-baseURL = "http://swhalley.ca"
+baseURL = "http://swhalley.ca/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "freelancer"
