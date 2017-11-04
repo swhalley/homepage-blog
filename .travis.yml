@@ -2,21 +2,18 @@ language: go
 notifications:
   email: false
 
-env:
-  global:
-    secure: jrzb6Z+jTitbmalVZU+BhuMi5pydPxMVdZdWr4aPmfSu+SYGB0o1FN7wyU2mtBJiQEdQMQwx7YiLsXlV4eTMG4dwdCT7Vs4as4Tyq8e1TH8wYrkkp2GVO8ok7lkVFchyZHhTF3gfFmXFycYRs9nKrYMzNcPkJv/1QUo1q0gr6NPZ8XkKk2nT2lpVQeYNl8Ajf6+owEbAVV1+vI26BfDHxg9LfX6U4M4mMPXt1fI2q4eIZIMC2iyftU9HmBYxlTgW2KWYf0e90hHHji0GI7rwiHemz1v3/Mu+jiqDGXnXe3dE9fKXT04DE7Y8wUYlEmA6+giKNZKSGwt0LmlGYBGF/CtsjoiL7lGnVHW8nOyqZvuFegCI4y1G9yW1SYZ4dx75IAwsQSF/zko9yZQ/LFwl/j6cNoTnR83xmQ38ad4I/SbUS+fOlSHw867H3tmxq2o66byAayuVat10jtFPq0aERXdaYK1nLsQ4rTeYscbWQqNMJNSlO3MBNIIjyRuHLVYt2cviyamCP8N9TRfWfckO8apIJh5zdMMh8w+bNcMS/6L52Fg8GUDmsLn9Y3u1CMCqdJTpGxoMtJBQHf9vzZu1TwqK6ZUYzarHndyhJAxB7CBqfmfmedcfLAegwVlPCzdpwvzrymk6r7RHNrLCJhGymcZYUG27xIttHv426paSkTw=
-
-  
 install:
   - go get github.com/spf13/hugo
 
 script:
-  - hugo 
+  - hugo
 
 deploy:
   provider: s3
-  access_key_id: "AKIAIC5TNWBXKHZL5LXA"
-  bucket: "swhalley.ca"
+  access_key_id: AKIAIIFQT3CDHC7J3ZHA
+  bucket: swhalley.ca
   skip_cleanup: true
-  region: "ca-central-1"
+  region: ca-central-1
   local_dir: public
+  secret_access_key:
+    secure: YyNWlCoH/gQxYcB8VDlwDW4LXLyJwIYZf7JI9wf7l9q+GGDowDESMgKntN9R+T3Re9tjvJ5qewJLdsYuQlT9eMvBDBp585l2qNB14a833Lv4k2SosEbu6+lW4Q/XbUfrazohPGOdag20BA1hktzCsakeIS21p1ZAaenKUxHV8vIGXL+CkbFmLj4oueLs07103UmjTFXtg5S24y9P45O5TzM0AsRdGNrU6bOMdUftFp6M6BEVr6Gb1cZ61034VFzTVh7GLu/lDSqf3ZzZb63Xc3IbWH7y5J2vkZQQSDlCMm2WtDYX0ucnULbSzX2Fbf3cVn9pgZFDGWYivrmsP5NO28HxxCpNZjR7e35Y8le4sm9yk8ox8iAfF/HQJQI/77kR/YNcLfRtB5MS3X3ed7/TwpkFUjHJsxGUm2Pqol8bXuwFpk2sbZNfpo/ZXSwfKLluIZRNwm2BLKmdZeZErOglgnIgVHBhS6vKrFjmrGBmfqzCYLljFeKuGZY7+OYwABDHq/Is6mv4cZdvUtnK/ggWoBYpA2jdhtXFRpCrwPiw926JHS+3o8HewATeKogIOschlv6nJ3pdfU2icoMgCEGNRGuTVZPOGOYoWnbl6/IaN+pMdUw345A00Z91Nv7Z8adJaX8dNq23lKZzAQ+JKMCzwqpz1MZl0Jxk8NDcirPYbQw=
