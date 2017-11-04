@@ -6,7 +6,7 @@ env:
 
 
 script:
-  - ls -l
+  - find . -name \*.* -print
 #install: go get -v github.com/spf13/hugo
 #script:
 #  - hugo 
