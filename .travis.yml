@@ -1,4 +1,5 @@
 language: go
+
 notifications:
   email: false
 
@@ -11,10 +12,9 @@ script:
 deploy:
   provider: s3
   access_key_id: AKIAIIFQT3CDHC7J3ZHA
-  bucket: swhalley.ca
+  secret_access_key:
+    secure: "N83gxqB1+AhrK/KSjTQe/y0EzI9z2SnwwfujJP0fb746p940EeZ7FzNnrZkzoKmhqm8A8eoDp1YfYSqC+4t5aN7uSh+cTKQ5IAcow+osBrgsh6KxNLiLpXrAID4xs9lygF1Zrd6XhsleM/WCPBA4jcOQqIDaBPAfBTfv2OP+BfFXJbHfHoVRgLCudgp89WA3Ur86JYLJQPwhvHJ4hsD9MmNSU83iUzdyc3n4Zu1+iWfc7o02RYOQ46S756LJqjqnDCtojUnqBPYyvqzi8BBqU/33+gckNnrVmrsITs6S9mTiRYFNDoUZy8EbgHbz4gqSgAyHFOD9ljcU19KAUCENR6QQwkdEzKyK0X5kadCoeFfawBWNI1FnjVtXuKGF50tUR+ZrdBWPUXilzs4E14HnejLVYlk8MDlOZrTkI8yhUbNezFIxBQ6I+MjsezvY1k+jFBPNuCoO5sa/z4VQKThViZbuAVqm0fc9N8VUTlEeuTvGJtlofIW3Z87MFGk8oehs9dR7ANNN75vJAHULRR+MbiS5cBNjHyUCzkX3FCx4qL+OU0bhT1OaTQTLYW3wJlsKG1ka16DmtXpyPZTS99qm/RY7CMPEATMC8lCBBbfQEHpiCCn4VIaAorv1YtNuzTyLPX8janYGnxHsJ4L814Un6CKC7vdQkBzTt9yGoJ3hiQk="
+  bucket: "swhalley.ca"
   skip_cleanup: true
-  region: ca-central-1
-  local_dir: public
-env:
-  global:
-    secure: GUZ8XvUmXlxikEWhT51QVk5vePTt+OuukJDRnWLofaLd8Q9qmYHavECjAfoOViteJH4Lx61qThsVuqksx4Ba5ltSjuG4baWoxsW3smReFeYP/xkg7a+W2y15M7nVhOGMfiA2r6nqjUgNnmbEKThhPj4CPBqkniLdGTYsN52TSPzMHI73ALJubMj+GSTxW7g1AMPtD0sOP2a5iR1DOzc0EAVqq1XdBmgM/UIzyzzvSe6GjVCvHpb/FOvo/y6IsqNneana/z13JW40xnlMj5pCZdkzDaEMG2tlf8l7nS7zMX620yzk0ZA+9o0hZCartqggpOKe8nj6CkT7pK7gnrFi02W1r7mMHV3PO5sA1tDUz4Ie+8oH+yZHJ1oxLwEZZUjvH0+5/6ESCyLWJVH0fzVC+Q6098vx59T0hi1IcZlzty8LCpQF1vXFhDq3TiWN2OYdbG/mqHKdl4Mt6UsY8dO25Dtlj2a+NJWh14aZAR875oWWvxKTyvKhdjqohdR+C/HeSS+cEeoHxruYutVRqAuPVgXz4bHo2f7c6rA/ifnmGqobkk4PXRUGqk8wVG4r/yUF2wIjS57GgTNpekqL/MlRwDCATX+tQsFH2KiNY+pXx4wUmA5fBV0WsCX1bMo4qPs8bBt2jhM5lH8tzEEYdISzWkdQylndsaPZHwCg/QeKwQE=
+  region: "ca-central-1"
+  local_dir: "public"
