@@ -1,10 +1,13 @@
 language: go
 notifications:
   email: false
+
 install:
-- go get github.com/spf13/hugo
+  - go get github.com/spf13/hugo
+
 script:
-- hugo
+  - hugo
+
 deploy:
   provider: s3
   access_key_id: AKIAIIFQT3CDHC7J3ZHA
@@ -12,4 +15,6 @@ deploy:
   skip_cleanup: true
   region: ca-central-1
   local_dir: public
-  secure: Abc5BmeNZ4Oxh5YzQHGixWwPTgtpVTSD/rrkS5PZ6gqx6er/oSpSwEy3G/wDq7rfDr4k6CO8baNTfJiMpt1kTySCs6rq3/6Hkyk1PS5CW3TCXbvyTgFao1kxHWMtUF7jqdEKbYktCuTMvvDbu2Ch1ocwSkGjaCGrlOfmPU6f8fp+S9KwstRTmy+5qyLwnI0aFEE5otslUdTeDwK3oGQeJpDPDUrFLGLj3bzlR0UH8jVFfeeBDQ+C7O63kTUjKGMDrgNWg22Ep7Z3CDzCbVq2UJT74UireFTTQTlTpHnzALY3cTz1sIj9uQe5ccGwmnnCMMdYkErwqtT/m8Oic6lzSApOWfhcYIniBvwAn9EX8vRoAlCNXQECA7UixiQ6rnfShuTr5XIhaL+eTxqql5C6fSx0+UM53HdHPr0E/oisyRPtZtJw+h9SsWWPbZK5D1DhFKKPqyII86Wb0nqqbqkw6GxyOcFOeJK5almW51snnulMZmL7NZFljArU4blqrmlNBVZwJfsGle+Rn3emifXOOCzW4c9bbhl3UNxXf1vj2ElkZXWgEVWcw7DD462JcsgQe+BzwtepqEibeCCLSrdVBiB1XZsD1VoZvqenseNneAieoRJSVj1p8ZXdPUJf1bLnoVQryCOYbdVYRuuN2+Ymk3KGheSuvrshScRjCFhWyKM=
+env:
+  global:
+    secure: GUZ8XvUmXlxikEWhT51QVk5vePTt+OuukJDRnWLofaLd8Q9qmYHavECjAfoOViteJH4Lx61qThsVuqksx4Ba5ltSjuG4baWoxsW3smReFeYP/xkg7a+W2y15M7nVhOGMfiA2r6nqjUgNnmbEKThhPj4CPBqkniLdGTYsN52TSPzMHI73ALJubMj+GSTxW7g1AMPtD0sOP2a5iR1DOzc0EAVqq1XdBmgM/UIzyzzvSe6GjVCvHpb/FOvo/y6IsqNneana/z13JW40xnlMj5pCZdkzDaEMG2tlf8l7nS7zMX620yzk0ZA+9o0hZCartqggpOKe8nj6CkT7pK7gnrFi02W1r7mMHV3PO5sA1tDUz4Ie+8oH+yZHJ1oxLwEZZUjvH0+5/6ESCyLWJVH0fzVC+Q6098vx59T0hi1IcZlzty8LCpQF1vXFhDq3TiWN2OYdbG/mqHKdl4Mt6UsY8dO25Dtlj2a+NJWh14aZAR875oWWvxKTyvKhdjqohdR+C/HeSS+cEeoHxruYutVRqAuPVgXz4bHo2f7c6rA/ifnmGqobkk4PXRUGqk8wVG4r/yUF2wIjS57GgTNpekqL/MlRwDCATX+tQsFH2KiNY+pXx4wUmA5fBV0WsCX1bMo4qPs8bBt2jhM5lH8tzEEYdISzWkdQylndsaPZHwCg/QeKwQE=
