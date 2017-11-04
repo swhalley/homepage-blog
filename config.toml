@@ -1,6 +1,4 @@
-baseURL = "http://127.0.0.1:1313"
-_baseURLDNS = "http://swhalley.ca/"
-_baseURL = "http://swhalley.ca.s3-website.ca-central-1.amazonaws.com/"
+baseURL = "http://swhalley.ca/"
 languageCode = "en-us"
 title = "Sean Whalley"
 theme = "hugo-nuo"
