@@ -11,9 +11,8 @@ script:
 
 deploy:
   provider: s3
-  access_key_id: "AKIAIKUJEESEX3ATOJFQ"
-  secret_access_key:
-    secure: "Y03vpfg2+gsTHc/qHwW9bz/V+Vda+UxoYvyAUZOD+OvsRlkl7sL4bzTgepeYalWZVWAhZJS0OCawu283SfRBOnAb8ErLOQiAQf611XYjo8r7HzZObi4ZCCz24KQyQkkZXwYPksf5wQuPEB/mRaGgJCou8M1p4sil1iLZnLQCAAEOVA4gXcmWANBqfp5awukcfKksCPzsUxJl8MU+gz+FCAf/w2tS6egTzjLEdKo9/K+jk0A9SF+yBYJaI/IDPkzQJhZygrgJ9jX8IZFx3DBgq8V8WG2YOPfNUJhRTHN8j5oZN9WU9F4oC+E+ucBArAHQ5ZeqY57DyzLHCfIn5/pYWU0oTzEyPFlxB6xs3QvzdzduzznJznzeZhMikAyRNgNYJRfm7D7TkMOq6F5wCc7T30cyEJfvPVoalQht2SCF4bLmixNNJXLnIQ/4QiFhY2vEvSa+w+I5BpvBBbLkHBMpawe2d/LRnxW5R/mkSV+rJrrh0COi4rbqdyg5kT+uFt3SO13Ak/cCSv1vGQpXl0amit8YL0hmJXy9rMilESohMmVk8KJkFcdNl9jkhSWMCMtB4HZM6sdmG58NWmyOMeN58fmLHxIfQibU99p7RhABL3b5p0NqV6KIPzDMmeDLGcOUp2z+ukvPM8X9l+7SR8CZvEajGUsg0A9ZRm8qEIBagWE="
+  access_key_id: $ACCESS_KEY
+  secret_access_key: $SECRET_KEY
   bucket: "swhalley.ca"
   skip_cleanup: true
   region: "ca-central-1"
