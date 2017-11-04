@@ -6,6 +6,7 @@ env:
 
 
 script:
+  - pwd
   - find . -name \*.* -print
 #install: go get -v github.com/spf13/hugo
 #script:
