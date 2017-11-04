@@ -1,18 +1,31 @@
-baseURL = "http://swhalley.ca/"
+baseURL = "http://127.0.0.1:1313"
+_baseURLDNS = "http://swhalley.ca/"
 _baseURL = "http://swhalley.ca.s3-website.ca-central-1.amazonaws.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "freelancer"
+title = "Sean Whalley"
+theme = "hugo-nuo"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Work"
+  weight = 20
+  identifier = "work"
+  url = "https://github.com/swhalley"
 
 [params]
-    [params.navigation]
-        brand = "My Thoughts"
-    [params.header]
-        # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
-        name = "Sean Whalley"
-        subtitle = "Jedi Knight Developer"
+  author = "Sean Whalley"
+  avatar = "/img/me.jpeg"
+  seotitle = "Sean Whalley's Home"
+  subtitle = "Development made \"easy\""
+  description = "Collection of thoughts I have gathered over the years. Will mostly be software related."
+  paginate = 10
 
-[params.footer]
-        copyright = "Powered by [Hugo](//gohugo.io)."
+  email = "swhalley at gmail.com"
+  github = "swhalley"
+  twitter = "seanWhalley21"
 
