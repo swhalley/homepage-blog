@@ -11,9 +11,21 @@ theme = "hugo-nuo"
 
 [[menu.main]]
   name = "Work"
-  weight = 20
+  weight = 30
   identifier = "work"
   url = "https://github.com/swhalley"
+
+[[menu.main]]
+  name = "Fun"
+  weight = 20
+  identifier = "nibbles"
+  url = "/game"
+
+[[menu.main]]
+  name = "About"
+  weight = 15
+  identifier = "about"
+  url = "/about/"
 
 [params]
   author = "Sean Whalley"
