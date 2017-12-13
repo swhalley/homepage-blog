@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head" .}}
+<body class="font-base">
+    {{ partial "menuBar" .}}
+    <div class="content">
+        <aside>
+            <ul>
+                {{ range first 10 (where .Data.Pages "Section" "post") }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        </aside>
+        {{ .Content }}
+    </div>
+    {{ partial "footer" .}}
+</body>
+</html>

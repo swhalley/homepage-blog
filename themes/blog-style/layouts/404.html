@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>404 Page Not Found</title></head>
+    <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/error.css" />
+<body>
+    <p>
+        We couldn't find the page you were looking for. But while you are here, play a game of nibbles
+    </p>
+    <code>controls
+        wasd - move up, down, left , right
+        esc - reset game
+    </code>
+
+    <canvas id="game" width="400px" height="400px"></canvas>
+    <script src="{{ .Site.BaseURL }}js/nibbles.min.js" ></script>
+    <script>
+        var board = new Board( "#game");
+        var snake = new Snake( 10 );
+        var controller = new GameController( board, snake);
+    
+        controller.refreshRate = 65;
+        board.fontSize = 80;
+    
+        controller.run(); 
+    </script>
+</body>
+</html>

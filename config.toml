@@ -1,41 +1,30 @@
 baseURL = "http://swhalley.ca/"
 languageCode = "en-us"
-title = "Sean Whalley"
-theme = "hugo-nuo"
+theme = "blog-style"
+
+title = "Sean's Thoughts"
+
+
+[params]
+subtitle = "Development made \"easy\""
+author = "Sean Whalley"
+
+[communication]
+email = "swhalley at gmail.com"
+github = "swhalley"
+twitter = "seanWhalley21"
 
 [[menu.main]]
   name = "Home"
-  weight = 10
-  identifier = "home"
+  weight = 1
   url = "/"
 
 [[menu.main]]
   name = "Work"
-  weight = 30
-  identifier = "work"
+  weight = 3
   url = "https://github.com/swhalley"
 
 [[menu.main]]
-  name = "Fun"
-  weight = 20
-  identifier = "nibbles"
-  url = "/game"
-
-[[menu.main]]
   name = "About"
-  weight = 15
-  identifier = "about"
-  url = "/about/"
-
-[params]
-  author = "Sean Whalley"
-  avatar = "/img/me.jpeg"
-  seotitle = "Sean Whalley's Home"
-  subtitle = "Development made \"easy\""
-  description = "Collection of thoughts I have gathered over the years. Will mostly be software related."
-  paginate = 10
-
-  email = "swhalley at gmail.com"
-  github = "swhalley"
-  twitter = "seanWhalley21"
-
+  weight = 2
+  url = "/about"

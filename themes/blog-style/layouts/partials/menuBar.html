@@ -1,0 +1,10 @@
+<nav>
+    <span class="font-biggest font-smoke">{{ .Site.Title }}</span>
+    <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}" class="no-style font-bigger font-smoke">{{.Name}}</a>
+        </li>
+        {{end}}
+    </ul>
+</nav>
