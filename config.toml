@@ -20,11 +20,16 @@ twitter = "seanWhalley21"
   url = "/"
 
 [[menu.main]]
-  name = "Work"
+  name = "See All"
   weight = 3
+  url = "/seeall"
+
+[[menu.main]]
+  name = "Work"
+  weight = 10
   url = "https://github.com/swhalley"
 
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 8
   url = "/about"
