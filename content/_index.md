@@ -2,6 +2,6 @@
 title: "_Index"
 ---
 
-Hello Home Page
+{{< aboutAuthor >}}
 
 {{% posts 10 %}}

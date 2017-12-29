@@ -5,6 +5,7 @@
                 <li>
                     <a href="{{ .Permalink }}" class="font-medium">{{ .Title }}</a>
                     <span>{{ .Date.Format "2006-01-02" }}</span>
+                    {{ with .Description }} - {{ end }}
                     <span>{{ .Description }}</span>
                 </li>
             {{ end }}

@@ -2,6 +2,7 @@
 title: "The 3 S's - Separation of Conceerns"
 date: 2018-03-01T01:14:36-03:00
 draft: true
+description: "A lesson on how to spell the title wrong"
 ---
 
 Follow these 3 rules and now you have very testable code.

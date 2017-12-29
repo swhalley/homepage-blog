@@ -3,7 +3,7 @@
     {{ partial "head" .}}
 <body class="font-base">
     {{ partial "menuBar" .}}
-    <div class="content">
+    <div class="content {{ if .IsHome }}two-column-layout{{ end }}">
         {{ .Content }}
     </div>
     {{ partial "footer" .}}
