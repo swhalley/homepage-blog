@@ -5,6 +5,16 @@
         {{ . }}
     </p>
     {{ end }}
+
+    {{ if .Page.IsHome }}{{ else }}
+        {{ range .Site.Params.about_ext }}
+        <p>
+            {{ . }}
+        </p>
+        {{ end }}
+    {{end}}
+
+    <p>{{ .Site.Params.about_thanks }}</p>
     <p class="signature font-biggest">
     {{ .Site.Params.Author}}
     </p>

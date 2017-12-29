@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "responsive.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn+SC:700|Indie+Flower');
 
 html, body {
@@ -7,7 +8,8 @@ html, body {
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #EDF2F4;
-    display: flex;
+
+    display: flex;  
     flex-direction: column;
 }
 
@@ -34,6 +36,7 @@ nav {
 
 nav, nav ul { 
     display : flex;
+    min-height: 1.1em;
 }
 
 nav span {
@@ -94,6 +97,14 @@ p{
     font-size: 22px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
 .signature {
     font-family: 'Indie Flower', cursive;
 }
@@ -105,4 +116,8 @@ p{
 .wrap-left {
     float: left;
     margin: 0em 1em 1em 0em;
+}
+
+.margin-bottom-small {
+    margin-bottom: 5px;
 }
