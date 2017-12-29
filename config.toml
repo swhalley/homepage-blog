@@ -22,7 +22,7 @@ twitter = "seanWhalley21"
 [[menu.main]]
   name = "See All"
   weight = 3
-  url = "/seeall"
+  url = "/post"
 
 [[menu.main]]
   name = "Work"

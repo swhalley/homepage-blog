@@ -53,6 +53,18 @@ footer span {
     border-right: 1px solid #C4C4C4;
 }
 
+ul.posts li{
+    margin-bottom: 5px;
+}
+
+ul.posts a{
+    display: block;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
 /* Utility Classes */
 .no-style { 
     text-decoration: none;
@@ -60,6 +72,10 @@ footer span {
 
 .font-base {
     font-size: 15px;
+}
+
+.font-medium {
+    font-size: 18px;
 }
 
 .font-bigger {
