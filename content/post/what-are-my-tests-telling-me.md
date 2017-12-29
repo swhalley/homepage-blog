@@ -1,10 +1,11 @@
 ---
-title: "What Are My Tests Telling Me"
-date: 2017-12-28T01:14:36-03:00
+title: "What Are My Tests Telling Me?"
+date: 2018-02-01T01:14:36-03:00
 draft: true
+description: "Unit Tests aren't just about Red, Green, Refactor"
 ---
 
-A lot of developers thing that tests are about red or green
+A lot of developers think that tests are about red/green
 
 * Tests are documentation
 * Tests tell about quality of code

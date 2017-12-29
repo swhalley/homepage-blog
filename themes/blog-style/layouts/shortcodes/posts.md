@@ -4,7 +4,8 @@
             {{ if .IsPage }}
                 <li>
                     <a href="{{ .Permalink }}" class="font-medium">{{ .Title }}</a>
-                    <span>{{ .Date.Format "2006-01-02" }}</a>
+                    <span>{{ .Date.Format "2006-01-02" }}</span>
+                    <span>{{ .Description }}</span>
                 </li>
             {{ end }}
         {{ end }}
@@ -13,7 +14,7 @@
             {{ if .IsPage }}
                 <li>
                     <a href="{{ .Permalink }}" class="font-medium">{{ .Title }}</a>
-                    <span>{{ .Date.Format "2006-01-02" }}</a>
+                    <span>{{ .Date.Format "2006-01-02" }}</span>
                 </li>
             {{ end }}
         {{ end }}
