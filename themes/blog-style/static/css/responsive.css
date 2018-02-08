@@ -2,4 +2,12 @@
     .content.two-column-layout {
         flex-direction: column;
     }
+
+    section.main-content { 
+        flex: initial;
+    }
+    
+    section.quick-posts {
+        flex: initial;
+    }
 }

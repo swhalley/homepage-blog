@@ -1,3 +1,3 @@
-<section>
+<section {{ with .Get "class"}} class="{{.}}"{{ end }}>
     {{ .Inner }}
 </section>

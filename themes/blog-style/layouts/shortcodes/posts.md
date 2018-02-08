@@ -5,22 +5,22 @@
             {{ range first . (where $.Site.Pages "Section" "post") }}
                 {{ if .IsPage }}
                     <li>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a href="{{ .Permalink }}" class="clean-link font-grey">{{ .Title }}</a>
                         <span>{{ .Date.Format "2006-01-02" }}</span>
-                        {{ with .Description }} - {{ end }}
-                        <span>{{ .Description }}</span>
                     </li>
                 {{ end }}
             {{ end }}
         </ul>
-    </details>
+    </fieldset>
 {{ else }}
     <ul class="posts">
     {{ range where $.Site.Pages "Section" "post" }}
         {{ if .IsPage }}
             <li>
-                <a href="{{ .Permalink }}" class="font-medium">{{ .Title }}</a>
+                <a href="{{ .Permalink }}" class="font-medium clean-link font-grey">{{ .Title }}</a>
                 <span>{{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Description }} - {{ end }}
+                <span>{{ .Description }}</span>
             </li>
         {{ end }}
     {{ end }}

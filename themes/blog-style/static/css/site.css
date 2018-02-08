@@ -26,6 +26,14 @@ body{
     margin-right:15px;
 }
 
+.main-content { 
+    flex: 3;
+}
+
+.quick-posts {
+    flex: 1;
+}
+
 nav {
     font-family: 'Vollkorn SC', serif;
     background-color: #333;
@@ -53,10 +61,10 @@ nav li:last-child {
 }
 
 footer {
-        background-color: #333;
-        padding: 10px;
-        text-align: center;
-        box-shadow: 5px -1px 2px #003459;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px -1px 2px #003459;
 }
 
 footer span {
@@ -113,6 +121,10 @@ p{
     color: #F4F4F9;
 }
 
+.font-grey {
+    color: #616161;
+}
+
 .wrap-left {
     float: left;
     margin: 0em 1em 1em 0em;
@@ -120,4 +132,13 @@ p{
 
 .margin-bottom-small {
     margin-bottom: 5px;
+}
+
+.clean-link {
+    text-decoration: none;
+
+}
+
+.clean-link:visited {
+    text-decoration: none;
 }

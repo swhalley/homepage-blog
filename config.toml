@@ -11,9 +11,9 @@ author = "Sean Whalley"
 image = "img/me.jpeg"
 about = [ 
   "I am a Software Developer who has been working in the field for many years now. My focus in the world is to teach others about clean code and that keeping things simple is more effective then being the smartest person in the room. Over the years I have had the chance to work with very talented people and soaked up a lot of knowledge during that time.",
-  "I am a classic scatter brain. My mind goes 100 miles/minute. The thoughts you read will reflect this.",
-  "My blog is a collection of the thoughts that swirl around in my head. I make every effort to attribute my thoughts back to the people who have influenced me. But if I miss you, reach out and I would be happy to give credit where credit is due.",
-  
+  "Anyone can be an XX developer, coding isn't hard. The transition to a software developer that writes good code is a constant battle. There is a long road with a lot of learning plateaus. Finding the right direction to continue moving forward with your career is never easy.",
+  "I am a classic scatter brain. The thoughts you read will reflect this. But if you can read between the crazy, you will learn that I have a lot to teach. I keep things simple because anything else causes unneeded stress.",
+  "My blog is a collection of the thoughts that swirl around in my head. I make every effort to attribute my thoughts back to the people who have influenced me. But if I miss you, reach out and I would be happy to give credit where credit is due."  
 ]
 
 about_ext = [
