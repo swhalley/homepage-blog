@@ -1,5 +1,5 @@
 <article class='{{ with .Get "className" }}{{ . }}{{ end }} about'>
-    <img src="{{ .Site.BaseURL }}/{{ .Site.Params.image }}" class="wrap-left" />
+    <img src="{{ .Site.BaseURL }}{{ .Site.Params.image }}" class="wrap-left" />
     {{ range .Site.Params.about }}
     <p>
         {{ . }}
