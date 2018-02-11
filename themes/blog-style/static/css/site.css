@@ -84,6 +84,28 @@ p{
     margin-bottom: 1em;
 }
 
+article > h1 {
+    font-size: 1.1em;
+}
+
+article > h3 {
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+    font-weight: bolder;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+ol > li {
+    list-style: decimal;
+    margin-left: 25px;
+}
+
+
 /* Utility Classes */
 .no-style { 
     text-decoration: none;

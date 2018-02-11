@@ -4,6 +4,10 @@
 <body class="font-base">
     {{ partial "menuBar" .}}
     <div class="content">
+        <article>
+            <h1>{{ .Page.Title }}</h1>
+            <h3>{{ .Page.Description }}</h3>
+        </article>
         {{ .Content }}
     </div>
     {{ partial "footer" .}}
