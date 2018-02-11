@@ -2,12 +2,12 @@
 title: "What Are My Tests Telling Me?"
 date: 2018-02-01T01:14:36-03:00
 draft: true
-description: "Unit Tests aren't just about Red, Green, Refactor"
+description: "Unit Tests Aren't Just About Red, Green, Refactor"
 ---
 
 Working with developers who are new to testing can lead to a lot of confusion as to what is the purpose of testing. For many, the argument is that it is just as easy to manually test the code than it is to write out a bunch of unit tests. Yes, but why would I pay a developer to manually test an entire application when I could pay someone pennies on the dollar and outsource it? The arguments against testing fall apart quickly but can be a difficult battle to change the culture of these developers.
 
-Over the years of watching people learn to test, it became clear that all developers would follow these phases in their learning pattern.
+Over the years of watching people learn to test, it became clear that developers would follow these phases in their learning pattern.
 
 ### Flat Out Refusal
 
@@ -47,9 +47,9 @@ Whither you are reading this because your are new to testing, learning about TDD
 
 1. Tests Are Documentation
   
-    Your business team is maintaining a costly set of use cases, or writing requirements in Jira. Your developers are keeping a wiki page page going with a list of contracts between systems. Your tester have a large regression test suite mapped out. But what if that was all not necessary. With properly laid out and named unit tests the team will realize that the other efforts are duplication and can be retired. As a developer if I continue to evolve and maintain my tests they act as the business requirements, use cases and contracts. 
+    Your business team is maintaining a costly set of use cases or writing requirements in Jira. Your developers are keeping a wiki page page going with a list of contracts between systems. Your tester have a large regression test suite mapped out. But what if all that was unnecessary. With properly laid out and named unit tests the team will realize that the other efforts are duplication and can be retired. As a developer if I continue to evolve and maintain my tests they act as the business requirements, use cases and contracts. 
 
-    A well named test can provide alot of information without the reader needing to know any of the implementation details of the test or code. The standard in naming over the years has evolved into something like UnitOfWork_StateUnderTest_ExpectedBehavior or Given_When_Then, which to the reader should be a clear requirement on how the system should behave.
+    A well named test can provide alot of information without the reader needing to know any of the implementation details of the test or code. The standard in naming over the years has evolved into something like `UnitOfWork_StateUnderTest_ExpectedBehavior` or `Given_When_Then`, which to the reader should be a clear requirement on how the system should behave.
 
 2. Tests Reflect The Quality Of Your Code
   
@@ -71,13 +71,14 @@ Whither you are reading this because your are new to testing, learning about TDD
 
     Another good use as an organizational tool is understanding where you left off. It is Friday before a long weekend and you are already checked out and not wanting to think anymore. The weekend is going to be crazy and you know Monday morning you will forget where you left off. Take the time and write your self one more unit test. This unit test will fail, but its name will tell you where you left off. Now Monday won't be so bad. 
 
-5. Tests Keep You From Overcoding
+5. Tests Keep You From Over-coding
 
     "Just in Case" code is a real problem. Developers add code in just in case a scenario may happen without understanding the requirements or data. Extra code be a major problem as it adds extra complexity and testing scenarios into the code. By writing good tests it forces the developers to understand the system. You eventually will question every test you write to know if it is really neded.
 
 
-Each of these topics can spawn much larger discussions. I have a series of articles which will do a deep dive into a lot of these areas. 
+Now that you know some of the other reasons developers write tests you can havea better appretiation of the "why" in your argument for testing. The learning path through the phases should be accelerated as you appreciate more about what your tests are telling you. As a developer I had to learn these lessons to really understand why I was testing and helped me appreciate TDD more. My tests were no longer about pass/fail. They were my contract with the business team to make sure that what I was delivering was high quality. 
 
+Each of these topics can spawn much larger discussions. I have a series of articles which will do a deep dive into a lot of these areas. But those stories are for another day. 
 
 Thanks for reading,
 {{< signature >}}
