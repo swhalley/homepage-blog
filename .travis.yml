@@ -17,3 +17,5 @@ deploy:
   skip_cleanup: true
   region: "ca-central-1"
   local_dir: "public"
+  on:
+    branch: "master"
