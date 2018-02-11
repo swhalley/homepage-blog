@@ -11,3 +11,9 @@
         flex: initial;
     }
 }
+
+@media( max-width: 725px ){
+    body { 
+        min-width: 725px;
+    }
+}

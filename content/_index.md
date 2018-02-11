@@ -1,8 +1,7 @@
 ---
-title: "_Index"
 ---
 {{< section class="main-content">}}
-    {{< aboutAuthor >}}
+    {{% aboutAuthor %}}
 {{< /section >}}
 
 {{< section class="quick-posts">}}
