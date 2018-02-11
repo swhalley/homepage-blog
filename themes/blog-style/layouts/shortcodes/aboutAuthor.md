@@ -15,7 +15,5 @@
     {{end}}
 
     <p>{{ .Site.Params.about_thanks }}</p>
-    <p class="signature font-biggest">
-    {{ .Site.Params.Author}}
-    </p>
+    {{< signature >}}
 </article>
