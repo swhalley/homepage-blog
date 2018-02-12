@@ -7,7 +7,8 @@ install:
   - go get github.com/spf13/hugo
 
 script:
-  - hugo
+  - if [ "$TRAVIS_BRANCH" = "development" ]; then hugo -F -D; fi
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then hugo; fi
 
 deploy:
   - provider: s3
