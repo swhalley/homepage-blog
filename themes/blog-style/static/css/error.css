@@ -9,3 +9,8 @@ code {
     white-space: pre-line;
     padding: 10px;
 }
+
+canvas {
+    width: 400px;
+    height: 400px;
+}
