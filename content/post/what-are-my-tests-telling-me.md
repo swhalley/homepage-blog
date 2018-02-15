@@ -5,7 +5,17 @@ draft: true
 description: "Unit Tests Aren't Just About Red, Green, Refactor"
 ---
 
-Working with developers who are new to testing can lead to a lot of confusion as to what is the purpose of testing. For many, the argument is that it is just as easy to manually test the code than it is to write out a bunch of unit tests. Yes, but why would I pay a developer to manually test an entire application when I could pay someone pennies on the dollar and outsource it? The many arguments against testing fall apart quickly but can be a difficult battle to change the culture of these developers.
+<!--
+I have made two kinds of edits in this post:
+1. I reworded some sentences where the intent was clear. Because git diffs work weird with prose, the original text is in a HTML comment before the changed section.
+1. I also added comments before sections where the intent was not clear, or the argument not strong.
+-->
+
+<!-- EDIT: Working with developers who are new to testing can lead to a lot of confusion as to what is the purpose of testing. For many, the argument is that it is just as easy to manually test the code than it is to write out a bunch of unit tests. -->
+Developers new to automated tests are often confused to their purpose. 
+Many argue that performing manual tests is easier than writing out automated ones. <!-- /EDIT -->
+<!-- You're making the assertion that automated testing saves money without giving justification. Either elaborate here, or provide forshadowing to the section where you back this up. --> Yes, but why would I pay a developer to manually test an entire application when I could pay someone pennies on the dollar and outsource it? 
+The many arguments against testing fall apart quickly but can be a difficult battle to change the culture of these developers.
 
 Over the years of watching people learn to test, it became clear that developers would follow these phases in their learning pattern.
 
@@ -13,7 +23,10 @@ Over the years of watching people learn to test, it became clear that developers
 
 This phase comes in a lot of forms, we could be staring at the 25 year vet who has gotten by all these years and doesn't believe they can improve their process or skills. We could also be looking at the university student who is moving to fast to really appreciate the need to test. There are a lot of developers in between who could benefit from testing but they just don't know why.
 
-This is the toughest phase to move from. What I find with these developers is that people have just not taken the time to really teach them "why" we test. That 25 year vet has never written more than a few handful of tests (if any) in their career and are set in their ways. They don't want to learn new things. The university student is all over the place and learning so many things that they are not learning what they need to about tests. And if they did, they are in information overload and miss this entirely. 
+This is the toughest phase to move from. What I find with these developers is that people have just not taken the time to really teach them "why" we test. That 25 year vet has never written more than a few handful of tests (if any) in their career and are set in their ways. They don't want to learn new things. 
+
+<!-- I might add an argument: because new developers are often just trying to get something working, they don't value tests because `robust` and `stable` stable are after thoughts to "Does it even run?"  --> <!-- There's just some tense issues in this paragraph -->
+The university student is usually all over the place. They're learning so many basic things that they do not learn what they need to about tests. And if they do, they are in information overload and miss the "why" entirely. 
 
 This is the longest phase in the development of a tester. How do you break the old habits or get them to slow down enough to appreciate it. For many of us we woke up one day and realized there has to be a better way. We take the time to embrace testing and its benefits. 
 
