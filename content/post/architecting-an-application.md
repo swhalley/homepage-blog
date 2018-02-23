@@ -51,24 +51,28 @@ Now you are at a place where devleopers are developing and you are choosing your
 
 ## Vetting Packages and Modules
 In the Java and Javascript world, packages and modules reign supreme. Any newer language is going to be dealing with some form of package manager. How do you make sure what you pick is quality and will last the test of time. These are the criteria I look at.
- * Does it work?
+
+  * Does it work?
     * Can you tust that the framework is reliable? Sites will do a great job of promoting their product, but do they work. 
     * Check if there are Unit tests. This shows that the developer cared. Do they do a good job of testing
     * If your use case is small, write your own tests, especially if the orignal framework lacks them. 
     * Example - If your application deals with money you will most likley be looking for something that handles floating point arithmetic properly. IF the framework you choose can't properly calculate `0.1 * 0.2 = 0.02` then you need to move on. I dont know how many currency packages I have looked at that will calculate this as `0.020000000000000004`. These are the show stopper. Know the usecase why you need the package so you can test it.
- * Is it secure?
+  * Is it secure?
     * If the package does something that opens you up to XSS it is a no go. Package will only work if on HTTP, show stopper.
     * Know the security context for your application and don't just put in anything because it works. 
- * Is there a clean interface?
+  * Is there a clean interface?
     * How easy is it to work with. Given two similar packages pick the one that is easier to use. 
- * How popular is it?
+  * How popular is it?
     * There are a lot of similar packages out there. Do a search on currency on the npm site and you will see how many are really out there. 
     * NPM offers stats on how often a package has been downloaded in the last day, week and month. It is important to know that the more popular a package the more support there is going to be out there for you when you need help.
- * Active Development
+  * Active Development
     * Are bugs being worked on? When was the last release. If the package is left for dead, know that you will be left to fix the packages bugs. 
     * Can you look at the open issues in Github and find they are being discussed and worke on? lots of open issues and no invlolment from the author and community is a bad sign. 
- * Documentation
-   * Have you ever found a wonderful product with no documentation? The find is rare. Documentation to me isn't about how to use the package, it tells me that the author cares about their product and has put thought into it. How do you find design flows in your work? I learn from when my tests and/or documentation tell me there are problems. 
+  * Documentation
+    * Have you ever found a wonderful product with no documentation? The find is rare. Documentation to me isn't about how to use the package, it tells me that the author cares about their product and has put thought into it. How do you find design flows in your work? I learn from when my tests and/or documentation tell me there are problems. 
 
 ## Lead By Example
 Be the first one to raise your hand to do the first POC. You have the ability to affect change and future best practices. Other developers coming in on the ground floor may not know about testing, clean code practices, docker or other choices that were made. Learning from a small application is much easier than joining a mamoth stack later on. Apply the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) to your early work and strive to show your vision and passion on the product.
+
+## Communicate
+The #1 rule in any aspect of life. If you can't communicate with your team and solicit feedback you will fail. Architecture design and decisions are not just about you. Communicate well and be awesome
