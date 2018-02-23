@@ -1,6 +1,6 @@
 ---
 title: "What Are My Tests Telling Me?"
-date: 2018-02-01T01:14:36-03:00
+date: 2018-02-01
 draft: true
 description: "Unit Tests Aren't Just About Red, Green, Refactor"
 ---

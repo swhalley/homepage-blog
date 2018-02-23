@@ -7,7 +7,7 @@ install:
   - go get github.com/spf13/hugo
 
 script:
-  - if [ "$TRAVIS_BRANCH" = "development" ]; then hugo -F -D -b $DEV_BASE_URL; fi
+  - if [ "$TRAVIS_BRANCH" = "development" ]; then hugo -D -b $DEV_BASE_URL; fi
   - if [ "$TRAVIS_BRANCH" = "master" ]; then hugo; fi
 
 deploy:

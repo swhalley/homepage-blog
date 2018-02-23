@@ -1,8 +1,8 @@
 ---
-title: "KISS - You are making your life harder"
-date: 2018-03-01T01:14:36-03:00
+title: "KISS"
+date: 2019-01-01
 draft: true
-description: ""
+description: "You are making your life harder"
 ---
 
 Envision this one being about code quality, and sanitizing at the poles so your tests and code are easier.

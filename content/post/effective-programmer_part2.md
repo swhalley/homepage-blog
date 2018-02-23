@@ -1,5 +1,5 @@
 ---
 title: "Effective Programmer - Part 2"
-date: 2018-01-01T01:14:36-03:00
+date: 2019-01-01
 draft: true
 ---

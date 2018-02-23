@@ -1,6 +1,6 @@
 ---
 title: "Naming Rest Services - Goldie Locks and the 3 Bears"
-date: 2018-04-01T01:14:36-03:00
+date: 2018-01-01
 draft: true
 ---
 
