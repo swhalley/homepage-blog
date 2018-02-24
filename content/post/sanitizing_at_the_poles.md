@@ -83,7 +83,7 @@ public class BankAccount {
 What we did here was ensure we have a better default value. Null is a very dangerous value and making a better choice on the default value protects you. The 2nd thing to do is protect against bad values in the setters. Control what users are allowed to set. Sanitize at the point of the input. Now there is no need to have the null defensive checks everywhere that this code is used. 
 
 ## Interesting, Tell me More 
-Let's look at this from a different angle with an MVC Application. When the MVC pattern emerges in my designs, I take a moment to reflect on where my poles are and code accordingly. The MVC model looks like the following
+Let's look at this from a different angle with an MVC Application. Any time I am doing development I take a moment to reflect on where my poles are and code accordingly. The MVC model has very distinct poles and are easy to identify
 {{< figure src="/img/mvc.png" title="Simple example of an MVC application" >}}
 
 Looking at the diagram you can see the single point of direction is to the model. The model is your record keeping system. It makes sense to make sure that the data in your records is correct. So use the model as your single place of sanitation.

@@ -9,6 +9,11 @@
             <h3>{{ .Page.Description }}</h3>
         </article>
         {{ .Content }}
+
+        Thanks for reading,
+        <p class="signature font-biggest">
+            {{ .Site.Params.Author}}
+        </p>
     </div>
     {{ partial "footer" .}}
 </body>

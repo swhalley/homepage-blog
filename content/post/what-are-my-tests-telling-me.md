@@ -79,6 +79,3 @@ Whither you are reading this because you are new to testing, learning about TDD,
 Now that you know some of the other reasons developers write tests you can have a better appreciation of the "why" in your argument for testing. The learning path through the phases should be accelerated as you appreciate more about what your tests are telling you. As a developer I had to learn these lessons to really understand why I was testing and helped me appreciate TDD more. My tests were no longer about pass/fail. They were my contract with the business team to make sure that what I was delivering was high quality. 
 
 Each of these topics can spawn much larger discussions. I have a series of articles which will do a deep dive into a lot of these areas. But those stories are for another day. 
-
-Thanks for reading,
-{{< signature >}}
