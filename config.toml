@@ -1,6 +1,7 @@
 baseURL = "http://swhalley.ca/"
 languageCode = "en-us"
 theme = "blog-style"
+enableEmoji = true
 
 title = "Sean's Thoughts"
 
