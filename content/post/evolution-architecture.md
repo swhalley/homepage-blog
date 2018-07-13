@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of Architecture"
-date: 2019-01-01
+date: 2018-07-13
 draft: true
 description: "What we have learned from our past"
 ---
